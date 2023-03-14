@@ -432,46 +432,66 @@ Each model correspond to homo-gender conversion (Female-to-Female: F2F), and het
 <table>
 <thead>
 <tr>
-<th>utterance</th>
-<th><span style="font-variant:small-caps;">GT</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">Resyn</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">BNE-S2SMoL-VC</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (offline)</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (stream)</span></th>
-<th><span style="font-variant:small-caps;">VC-T (offline)</th>
-<th><span style="font-variant:small-caps;">VC-T (stream)</th>
+<th>Utterance</th>
+<th>Source speaker</th>
+<th>Target speaker<br>(oracle)</th>
+<th></th>
+<th>Converted speech</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>-</td>
+<td>-</td>
+<td><span style="font-variant:small-caps;"><strong>GT</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>Resyn</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>BNE-S2SMoL-VC</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (offline)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (stream)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (offline)</strong></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (stream)</strong></td>
+<td></td>
+</tr>
+<tr>
 <td>sample 1</td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/reference/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/resyn/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/bne_s2smol_vc/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_offline/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_stream/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_offline/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_stream/wav.sv56/FSO@Teineigo@824-FJS@Teineigo@824.wav' id="audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@824-FJS@Teineigo@824_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/source_spk/wav.sv56/female2female1.wav' id="audio_tag_female2female1_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2female/reference/wav.sv56/female2female1.wav' id="audio_tag_female2female1_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2female/resyn/wav.sv56/female2female1.wav' id="audio_tag_female2female1_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2female/bne_s2smol_vc/wav.sv56/female2female1.wav' id="audio_tag_female2female1_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_offline/wav.sv56/female2female1.wav' id="audio_tag_female2female1_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_stream/wav.sv56/female2female1.wav' id="audio_tag_female2female1_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_offline/wav.sv56/female2female1.wav' id="audio_tag_female2female1_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_stream/wav.sv56/female2female1.wav' id="audio_tag_female2female1_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female1_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 2</td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/reference/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/resyn/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/bne_s2smol_vc/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_offline/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_stream/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_offline/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_stream/wav.sv56/FSO@Teineigo@197-FJS@Teineigo@197.wav' id="audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@197-FJS@Teineigo@197_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/source_spk/wav.sv56/female2female2.wav' id="audio_tag_female2female2_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2female/reference/wav.sv56/female2female2.wav' id="audio_tag_female2female2_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2female/resyn/wav.sv56/female2female2.wav' id="audio_tag_female2female2_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2female/bne_s2smol_vc/wav.sv56/female2female2.wav' id="audio_tag_female2female2_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_offline/wav.sv56/female2female2.wav' id="audio_tag_female2female2_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_stream/wav.sv56/female2female2.wav' id="audio_tag_female2female2_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_offline/wav.sv56/female2female2.wav' id="audio_tag_female2female2_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_stream/wav.sv56/female2female2.wav' id="audio_tag_female2female2_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female2_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 3</td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/reference/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/resyn/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/bne_s2smol_vc/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_offline/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/convs2s_vc_stream/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_offline/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FSO.Teineigo-FJS.NHKNews/vc-t_stream/wav.sv56/FSO@Teineigo@158-FJS@Teineigo@158.wav' id="audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FSO@Teineigo@158-FJS@Teineigo@158_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/source_spk/wav.sv56/female2female3.wav' id="audio_tag_female2female3_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2female/reference/wav.sv56/female2female3.wav' id="audio_tag_female2female3_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2female/resyn/wav.sv56/female2female3.wav' id="audio_tag_female2female3_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2female/bne_s2smol_vc/wav.sv56/female2female3.wav' id="audio_tag_female2female3_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_offline/wav.sv56/female2female3.wav' id="audio_tag_female2female3_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/convs2s_vc_stream/wav.sv56/female2female3.wav' id="audio_tag_female2female3_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_offline/wav.sv56/female2female3.wav' id="audio_tag_female2female3_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2female/vc-t_stream/wav.sv56/female2female3.wav' id="audio_tag_female2female3_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2female3_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -479,46 +499,66 @@ Each model correspond to homo-gender conversion (Female-to-Female: F2F), and het
 <table>
 <thead>
 <tr>
-<th>utterance</th>
-<th><span style="font-variant:small-caps;">GT</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">Resyn</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">BNE-S2SMoL-VC</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (offline)</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (stream)</span></th>
-<th><span style="font-variant:small-caps;">VC-T (offline)</th>
-<th><span style="font-variant:small-caps;">VC-T (stream)</th>
+<th>Utterance</th>
+<th>Source speaker</th>
+<th>Target speaker<br>(oracle)</th>
+<th></th>
+<th>Converted speech</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>-</td>
+<td>-</td>
+<td><span style="font-variant:small-caps;"><strong>GT</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>Resyn</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>BNE-S2SMoL-VC</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (offline)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (stream)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (offline)</strong></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (stream)</strong></td>
+<td></td>
+</tr>
+<tr>
 <td>sample 1</td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/reference/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/resyn/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/bne_s2smol_vc/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_offline/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_stream/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_offline/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_stream/wav.sv56/FJS@NHKNews@169-MKS@NHKNews@169.wav' id="audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@169-MKS@NHKNews@169_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/source_spk/wav.sv56/female2male1.wav' id="audio_tag_female2male1_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2male/reference/wav.sv56/female2male1.wav' id="audio_tag_female2male1_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2male/resyn/wav.sv56/female2male1.wav' id="audio_tag_female2male1_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2male/bne_s2smol_vc/wav.sv56/female2male1.wav' id="audio_tag_female2male1_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_offline/wav.sv56/female2male1.wav' id="audio_tag_female2male1_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_stream/wav.sv56/female2male1.wav' id="audio_tag_female2male1_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_offline/wav.sv56/female2male1.wav' id="audio_tag_female2male1_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_stream/wav.sv56/female2male1.wav' id="audio_tag_female2male1_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male1_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 2</td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/reference/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/resyn/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/bne_s2smol_vc/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_offline/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_stream/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_offline/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_stream/wav.sv56/FJS@NHKNews@87-MKS@NHKNews@87.wav' id="audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@87-MKS@NHKNews@87_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/source_spk/wav.sv56/female2male2.wav' id="audio_tag_female2male2_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2male/reference/wav.sv56/female2male2.wav' id="audio_tag_female2male2_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2male/resyn/wav.sv56/female2male2.wav' id="audio_tag_female2male2_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2male/bne_s2smol_vc/wav.sv56/female2male2.wav' id="audio_tag_female2male2_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_offline/wav.sv56/female2male2.wav' id="audio_tag_female2male2_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_stream/wav.sv56/female2male2.wav' id="audio_tag_female2male2_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_offline/wav.sv56/female2male2.wav' id="audio_tag_female2male2_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_stream/wav.sv56/female2male2.wav' id="audio_tag_female2male2_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male2_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 3</td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/reference/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/resyn/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/bne_s2smol_vc/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_offline/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/convs2s_vc_stream/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_offline/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_FJS.NHKNews-MKS.NHKNews/vc-t_stream/wav.sv56/FJS@NHKNews@751-MKS@NHKNews@751.wav' id="audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_FJS@NHKNews@751-MKS@NHKNews@751_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/source_spk/wav.sv56/female2male3.wav' id="audio_tag_female2male3_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/female2male/reference/wav.sv56/female2male3.wav' id="audio_tag_female2male3_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_reference').play()">▶</span></div></td>
+<td><audio src='resource/female2male/resyn/wav.sv56/female2male3.wav' id="audio_tag_female2male3_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_resyn').play()">▶</span></div></td>
+<td><audio src='resource/female2male/bne_s2smol_vc/wav.sv56/female2male3.wav' id="audio_tag_female2male3_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_offline/wav.sv56/female2male3.wav' id="audio_tag_female2male3_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/convs2s_vc_stream/wav.sv56/female2male3.wav' id="audio_tag_female2male3_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_offline/wav.sv56/female2male3.wav' id="audio_tag_female2male3_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/female2male/vc-t_stream/wav.sv56/female2male3.wav' id="audio_tag_female2male3_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_female2male3_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -526,46 +566,66 @@ Each model correspond to homo-gender conversion (Female-to-Female: F2F), and het
 <table>
 <thead>
 <tr>
-<th>utterance</th>
-<th><span style="font-variant:small-caps;">GT</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">Resyn</span>(oracle)</th>
-<th><span style="font-variant:small-caps;">BNE-S2SMoL-VC</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (offline)</span></th>
-<th><span style="font-variant:small-caps;">ConvS2S-VC (stream)</span></th>
-<th><span style="font-variant:small-caps;">VC-T (offline)</th>
-<th><span style="font-variant:small-caps;">VC-T (stream)</th>
+<th>Utterance</th>
+<th>Source speaker</th>
+<th>Target speaker<br>(oracle)</th>
+<th></th>
+<th>Converted speech</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>-</td>
+<td>-</td>
+<td><span style="font-variant:small-caps;"><strong>GT</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>Resyn</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>BNE-S2SMoL-VC</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (offline)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>ConvS2S-VC (stream)</strong></span></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (offline)</strong></td>
+<td><span style="font-variant:small-caps;"><strong>VC-T (stream)</strong></td>
+<td></td>
+</tr>
+<tr>
 <td>sample 1</td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/reference/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/resyn/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/bne_s2smol_vc/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_offline/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_stream/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_offline/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_stream/wav.sv56/MKS@NHKNews@350-FJS@NHKNews@350.wav' id="audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@350-FJS@NHKNews@350_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/source_spk/wav.sv56/male2female1.wav' id="audio_tag_male2female1_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/male2female/reference/wav.sv56/male2female1.wav' id="audio_tag_male2female1_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_reference').play()">▶</span></div></td>
+<td><audio src='resource/male2female/resyn/wav.sv56/male2female1.wav' id="audio_tag_male2female1_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_resyn').play()">▶</span></div></td>
+<td><audio src='resource/male2female/bne_s2smol_vc/wav.sv56/male2female1.wav' id="audio_tag_male2female1_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_offline/wav.sv56/male2female1.wav' id="audio_tag_male2female1_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_stream/wav.sv56/male2female1.wav' id="audio_tag_male2female1_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_offline/wav.sv56/male2female1.wav' id="audio_tag_male2female1_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_stream/wav.sv56/male2female1.wav' id="audio_tag_male2female1_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female1_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 2</td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/reference/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/resyn/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/bne_s2smol_vc/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_offline/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_stream/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_offline/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_stream/wav.sv56/MKS@NHKNews@22-FJS@NHKNews@22.wav' id="audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@22-FJS@NHKNews@22_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/source_spk/wav.sv56/male2female2.wav' id="audio_tag_male2female2_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/male2female/reference/wav.sv56/male2female2.wav' id="audio_tag_male2female2_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_reference').play()">▶</span></div></td>
+<td><audio src='resource/male2female/resyn/wav.sv56/male2female2.wav' id="audio_tag_male2female2_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_resyn').play()">▶</span></div></td>
+<td><audio src='resource/male2female/bne_s2smol_vc/wav.sv56/male2female2.wav' id="audio_tag_male2female2_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_offline/wav.sv56/male2female2.wav' id="audio_tag_male2female2_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_stream/wav.sv56/male2female2.wav' id="audio_tag_male2female2_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_offline/wav.sv56/male2female2.wav' id="audio_tag_male2female2_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_stream/wav.sv56/male2female2.wav' id="audio_tag_male2female2_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female2_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 <tr>
 <td>sample 3</td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/reference/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_reference').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/resyn/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_resyn').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/bne_s2smol_vc/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_bne_s2smol_vc').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_offline/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_convs2s_vc_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/convs2s_vc_stream/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_convs2s_vc_stream').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_offline/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_vc-t_offline').play()">▶</span></div></td>
-<td><audio src='resource/vc_MKS.NHKNews-FJS.NHKNews/vc-t_stream/wav.sv56/MKS@NHKNews@94-FJS@NHKNews@94.wav' id="audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_MKS@NHKNews@94-FJS@NHKNews@94_vc-t_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/source_spk/wav.sv56/male2female3.wav' id="audio_tag_male2female3_source_spk"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_source_spk').play()">▶</span></div></td>
+<td><audio src='resource/male2female/reference/wav.sv56/male2female3.wav' id="audio_tag_male2female3_reference"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_reference').play()">▶</span></div></td>
+<td><audio src='resource/male2female/resyn/wav.sv56/male2female3.wav' id="audio_tag_male2female3_resyn"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_resyn').play()">▶</span></div></td>
+<td><audio src='resource/male2female/bne_s2smol_vc/wav.sv56/male2female3.wav' id="audio_tag_male2female3_bne_s2smol_vc"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_bne_s2smol_vc').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_offline/wav.sv56/male2female3.wav' id="audio_tag_male2female3_convs2s_vc_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_convs2s_vc_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/convs2s_vc_stream/wav.sv56/male2female3.wav' id="audio_tag_male2female3_convs2s_vc_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_convs2s_vc_stream').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_offline/wav.sv56/male2female3.wav' id="audio_tag_male2female3_vc-t_offline"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_vc-t_offline').play()">▶</span></div></td>
+<td><audio src='resource/male2female/vc-t_stream/wav.sv56/male2female3.wav' id="audio_tag_male2female3_vc-t_stream"></audio><div class="audio_buttons" role="button"><span onclick="document.getElementById('audio_tag_male2female3_vc-t_stream').play()">▶</span></div></td>
+<td></td>
 </tr>
 </tbody>
 </table>
