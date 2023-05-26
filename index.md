@@ -1,9 +1,10 @@
 # VC-T: Streaming voice conversion based on neural transducer <!-- omit in toc -->
 ## Authors  <!-- omit in toc -->
-anonymous authors
+Hiroki Kanagawa*, Takafumi Moriya*, Yusuke Ijima (NTT corporation, Japan)<br>
+<span style="font-size: 80%">* equal contribution</span>
 
 ## Paper  <!-- omit in toc -->
-Under peer-review at Interspeech 2023
+[ISCA Interspeech 2023](https://www.interspeech2023.org/) on 20th-24th August 2023
 
 ## Note  <!-- omit in toc -->
 If you are having trouble listening to the audios, try refreshing the page.
